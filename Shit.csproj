@@ -1,0 +1,197 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <ProjectType>local</ProjectType>
+    <ProjectVersion>7.10.377</ProjectVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>e21a1c62-1cc7-4bbe-9908-b06e63cd8e08</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <AssemblyName>Shit</AssemblyName>
+    <OutputType>WinExe</OutputType>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <ItemGroup>
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Management" />
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="InjectionLibrary" />
+    <Reference Include="AccessRule" />
+    <Reference Include="System.Core" />
+    <Compile Include="AssemblyInfo.cs" />
+    <Compile Include="Global.cs" />
+    <Compile Include="Shit\My\MyApplication.cs" />
+    <Compile Include="Shit\My\MyComputer.cs" />
+    <Compile Include="Shit\My\MyProject.cs" />
+    <Compile Include="Shit\My\Resources\Resources.cs" />
+    <Compile Include="Shit\My\MySettings.cs" />
+    <Compile Include="Shit\DW.cs" />
+    <Compile Include="Shit\DW2.cs" />
+    <Compile Include="Shit\Inject.cs" />
+    <Compile Include="Shit\InjectForm.cs" />
+    <Compile Include="Shit\Injektion.cs" />
+    <Compile Include="Shit\Forum.cs" />
+    <Compile Include="Shit\HTTPWorker.cs" />
+    <Compile Include="Shit\myBB.cs" />
+    <Compile Include="Shit\Form1.cs" />
+    <Compile Include="Shit\holper.cs" />
+    <Compile Include="Shit\Login.cs" />
+    <Compile Include="Shit\ThemeContainer154.cs" />
+    <Compile Include="Shit\ThemeControl154.cs" />
+    <Compile Include="Shit\ThemeShare.cs" />
+    <Compile Include="Shit\MouseState.cs" />
+    <Compile Include="Shit\Bloom.cs" />
+    <Compile Include="Shit\PrecisionTimer.cs" />
+    <Compile Include="Shit\NYX_Theme.cs" />
+    <Compile Include="Shit\NYX_Button.cs" />
+    <Compile Include="Shit\NYX_ProgressBar.cs" />
+    <Compile Include="Shit\NYX_GroupBox.cs" />
+    <Compile Include="Shit\NYX_ControlBox.cs" />
+    <Compile Include="Shit\NYX_CheckBox.cs" />
+    <Compile Include="Shit\CrystalClearTextBox.cs" />
+    <Compile Include="Shit\CrystalClearTabControl.cs" />
+    <Compile Include="Shit\Settings.cs" />
+    <Compile Include="Shit\Splash.cs" />
+    <Compile Include="Shit\Test.cs" />
+    <Compile Include="Shit\Unbanner.cs" />
+    <Compile Include="NETGuard.cs" />
+    <Compile Include="NullTextWriter\CalendarWeekRule.cs" />
+    <Compile Include="ObjectCloneHelper.cs" />
+    <Compile Include="Context\ObjectAccessRule.cs" />
+    <Compile Include="CorCallingConvention.cs" />
+    <Compile Include="Context\ComInterfaceType.cs" />
+    <Compile Include="StreamTokenReader.cs" />
+    <Compile Include="Context\Log.cs" />
+    <Compile Include="SEHException.cs" />
+    <Compile Include="Context\AppDomainInitializerInfo.cs" />
+    <Compile Include="TypeInfo\SoapNonPositiveInteger.cs" />
+    <Compile Include="StrongName2.cs" />
+    <Compile Include="FieldToken.cs" />
+    <Compile Include="SerializationObjectManager\StringMaker.cs" />
+    <Compile Include="NotSupportedException.cs" />
+    <Compile Include="SerializationObjectManager\RuntimeHelpers.cs" />
+    <Compile Include="WorkItem.cs" />
+    <Compile Include="ComVisibleAttribute.cs" />
+    <Compile Include="InterfaceTypeAttribute.cs" />
+    <Compile Include="Single.cs" />
+    <Compile Include="SerializationObjectManager\FileNotFoundException.cs" />
+    <Compile Include="SerializationObjectManager\Normalization.cs" />
+    <Compile Include="SerializationObjectManager\SyncStream.cs" />
+    <Compile Include="OidGroup.cs" />
+    <Compile Include="SerializationObjectManager\ConstArray.cs" />
+    <Compile Include="SerializationObjectManager\STAThreadAttribute.cs" />
+    <Compile Include="SerializationObjectManager\StackFrame.cs" />
+    <Compile Include="ExceptionFromErrorCode.cs" />
+    <Compile Include="SerializationObjectManager\IMetadataSectionEntry.cs" />
+    <Compile Include="SerializationObjectManager\StaticArrayInitTypeSize=10.cs" />
+    <Compile Include="SerializationObjectManager\CreateFlags.cs" />
+    <Compile Include="PolicyRights.cs" />
+    <Compile Include="SerializationObjectManager\SecurityCriticalScope.cs" />
+    <Compile Include="SerializationObjectManager\MutexAuditRule.cs" />
+    <Compile Include="ApartmentState.cs" />
+    <Compile Include="SerializationObjectManager\IsolatedStorageException.cs" />
+    <Compile Include="SerializationObjectManager\PortableExecutableKinds.cs" />
+    <Compile Include="SerializationObjectManager\IsByValue.cs" />
+    <Compile Include="SerializationObjectManager\Error.cs" />
+    <Compile Include="SerializationObjectManager\DayOfWeek.cs" />
+    <Compile Include="SerializationObjectManager\ArgumentOutOfRangeException.cs" />
+    <Compile Include="SerializationObjectManager\ConsoleColor.cs" />
+    <Compile Include="SerializationObjectManager\Variant.cs" />
+    <Compile Include="SerializationObjectManager\TypeBuilderInstantiation.cs" />
+    <Compile Include="SerializationObjectManager\CustomAttributeTypedArgument.cs" />
+    <Compile Include="SerializationObjectManager\TypeKind.cs" />
+    <Compile Include="SerializationObjectManager\DecoderExceptionFallbackBuffer.cs" />
+    <Compile Include="SerializationObjectManager\ResourceAttributes.cs" />
+    <Compile Include="SerializationObjectManager\CryptoKeyRights.cs" />
+    <Compile Include="SerializationObjectManager\ExceptionInfo.cs" />
+    <Compile Include="SerializationObjectManager\SafeArrayRankMismatchException.cs" />
+    <Compile Include="SerializationObjectManager\IRegistrationServices.cs" />
+    <Compile Include="SerializationObjectManager\ChannelInfo.cs" />
+    <Compile Include="SerializationObjectManager\StringComparison.cs" />
+    <Compile Include="SerializationObjectManager\Guid.cs" />
+    <Compile Include="SerializationObjectManager\TrackingServices.cs" />
+    <Compile Include="SerializationObjectManager\StringInfo.cs" />
+    <Compile Include="SerializationObjectManager\TimeZone.cs" />
+    <Compile Include="ArgMapper.cs" />
+    <Compile Include="SerializationObjectManager\SynchronizedServerContextSink.cs" />
+    <Compile Include="SerializationObjectManager\ModuleBuilderData.cs" />
+    <Compile Include="SerializationObjectManager\TYPEKIND.cs" />
+    <Compile Include="SerializationObjectManager\UCOMITypeLib.cs" />
+    <Compile Include="SerializationObjectManager\UCOMITypeComp.cs" />
+    <Compile Include="SerializationObjectManager\InternalNameSpaceEPM.cs" />
+    <Compile Include="SerializationObjectManager\Object.cs" />
+    <Compile Include="SerializationObjectManager\ArrayListEnumeratorSimple.cs" />
+    <Compile Include="SerializationObjectManager\CryptoStream.cs" />
+    <Compile Include="SerializationObjectManager\EnvironmentPermissionAttribute.cs" />
+    <Compile Include="SerializationObjectManager\ContextLevelActivator.cs" />
+    <Compile Include="SerializationObjectManager\MTAThreadAttribute.cs" />
+    <Compile Include="SerializationObjectManager\ParseRecord.cs" />
+    <Compile Include="SerializationObjectManager\VariantOperandType.cs" />
+    <Compile Include="SerializationObjectManager\SymbolToken.cs" />
+    <Compile Include="SerializationObjectManager\PARAMFLAG.cs" />
+    <Compile Include="SerializationObjectManager\ITypeLib2.cs" />
+    <Compile Include="SerializationObjectManager\HResults.cs" />
+    <Compile Include="SerializationObjectManager\SmuggledObjRef.cs" />
+    <Compile Include="SerializationObjectManager\BaseChannelWithProperties.cs" />
+    <Compile Include="SerializationObjectManager\ManifestResourceAttributes.cs" />
+    <Compile Include="SerializationObjectManager\STORECATEGORYSUBCATEGORY.cs" />
+    <Compile Include="SerializationObjectManager\KERBS4ULOGON.cs" />
+    <Compile Include="SerializationObjectManager\ManualResetEvent.cs" />
+    <Compile Include="SerializationObjectManager\IEnumerable.cs" />
+    <Compile Include="SerializationObjectManager\IsSignUnspecifiedByte.cs" />
+    <Compile Include="SerializationObjectManager\PrimitiveArray.cs" />
+    <Compile Include="SerializationObjectManager\RealProxyFlags.cs" />
+    <Compile Include="SerializationObjectManager\IdentityReferenceCollection.cs" />
+    <Compile Include="SerializationObjectManager\ResolveEventArgs.cs" />
+    <Compile Include="SerializationObjectManager\GCNotificationStatus.cs" />
+    <Compile Include="SerializationObjectManager\MethodImplAttributes.cs" />
+    <Compile Include="SerializationObjectManager\CrossAppDomainChannel.cs" />
+    <Compile Include="SerializationObjectManager\NotSupportedExceptionAssemblyVersionCompatibility.cs" />
+    <Compile Include="SerializationObjectManager\MuiResourceMapEntry.cs" />
+    <Compile Include="SerializationObjectManager\SyncSortedList.cs" />
+    <Compile Include="SerializationObjectManager\EnumCategoriesFlags.cs" />
+    <Compile Include="SerializationObjectManager\SecurityElementType.cs" />
+    <Compile Include="SerializationObjectManager\AsyncReplySink.cs" />
+    <Compile Include="SerializationObjectManager\CMSHASHTRANSFORM.cs" />
+    <Compile Include="SerializationObjectManager\StringFreezingAttributeComRedirectionProxy.cs" />
+    <Compile Include="SerializationObjectManager\IsolatedStorageFilePermissionAttribute.cs" />
+    <Compile Include="SerializationObjectManager\Constants.cs" />
+    <Compile Include="SerializationObjectManager\CaseInsensitiveHashCodeProvider.cs" />
+    <Compile Include="SerializationObjectManager\CustomAttributeFormatException.cs" />
+    <Compile Include="SerializationObjectManager\ArithmeticException.cs" />
+    <Compile Include="SerializationObjectManager\CryptographicUnexpectedOperationException.cs" />
+    <Compile Include="SerializationObjectManager\Fusion.cs" />
+    <Compile Include="SerializationObjectManager\DecoratedNameAttribute.cs" />
+    <Compile Include="SerializationObjectManager\SinkProviderData.cs" />
+    <Compile Include="SerializationObjectManager\SoapFaultCMSASSEMBLYDEPLOYMENTFLAG.cs" />
+    <Compile Include="SerializationObjectManager\CallConvCdecl.cs" />
+    <Compile Include="SerializationObjectManager\NeutralResourcesLanguageAttribute.cs" />
+    <Compile Include="SerializationObjectManager\KeyContainerPermissionAttributeX509KeyStorageFlags.cs" />
+    <Compile Include="SerializationObjectManager\SHA384.cs" />
+    <Compile Include="SerializationObjectManager\IRegistrationServicesSTAThreadAttribute.cs" />
+    <Compile Include="SByte.cs" />
+    <Compile Include="InternalSerializerTypeE.cs" />
+    <Compile Include="IEnumerableHostExecutionContextManager.cs" />
+  </ItemGroup>
+</Project>
